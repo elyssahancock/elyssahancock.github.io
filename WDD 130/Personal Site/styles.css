@@ -12,7 +12,7 @@
     <header>
       <h1>[Site name] Site Plan</h1>
       <h2>Elyssa Hancock</h2>
-      <h2>WDD 130 ~ Section 03</h2>
+      <h2>WDD 130.03</h2>
       <!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 130.03 -->
     </header>
     <main>
@@ -21,11 +21,11 @@
       <hr>
       <h2>Overview</h2>
       <h3>Purpose</h3>
-      <p>[The purpose of this site is to provide a reference of my work]</p>  <!-- change this -->
+      <p>[Your purpose here]</p>  <!-- change this -->
 
 
       <h3>Audience</h3>
-      <p>[My audience would ideally be someone wanting to hire me who would benefit from seeing my skillset first]</p>  <!-- change this -->
+      <p>[Your audience here]</p>  <!-- change this -->
 
       <hr>
       <h2>Branding</h2>
@@ -51,7 +51,7 @@
       <table class="colors">
         <tr><th>Primary</th><th>Secondary</th><th>Accent 1</th><th>Accent 2</th></tr>
         <!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
-        <tr><td class="primary">[#223843]</td><td class="secondary">[#EFF1F3]</td><td class="accent1">[#D77A61]</td><td class="accent2"></td></tr>
+        <tr><td class="primary">[#396E94]</td><td class="secondary">[#E7C24F]</td><td class="accent1">[#A43312]</td><td class="accent2"></td></tr>
       </table>
 
       <!-- ------------------------Step 9------------------------------ -->
@@ -59,16 +59,13 @@
       <h3>
         Typography
       </h3>
-      <style>
-        @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Bebas+Neue&family=Fruktur&display=swap');
-        </style>
       <!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Why did you choose what you did?  Make sure to review the list of web safe fonts at W3Schools.org as a starting point.  Think also about which of your colors above you might use for background and font colors. -->
 
       <h4>
-        Heading Font: [Fruktur]  <!-- change this -->
+        Heading Font: [Font Name here]  <!-- change this -->
       </h4>
       <h4>
-        Paragraph Font: [Baloo-2]  <!-- change this -->
+        Paragraph Font: [Font Name here]  <!-- change this -->
       </h4>
       <h3>
         Normal paragraph example

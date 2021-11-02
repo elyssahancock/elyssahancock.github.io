@@ -1,0 +1,13 @@
+#hero-img, img{
+height: 100%;
+width: 100%;
+}
+body{
+    background-color: gray;
+}
+.circle_pics {
+    border-radius: 100%;
+   max-width: 30%;
+   padding: 1%;
+   height: auto;
+}

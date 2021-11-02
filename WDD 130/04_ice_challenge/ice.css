@@ -1,0 +1,51 @@
+body {
+    background-color: #ef98aa;
+    max-width: 400px;
+    margin: 0 auto;
+}
+img{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    border: 2px green;
+    
+}
+h1,h2,p{
+    text-align:center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    color:white;
+
+}
+h1:hover{
+    color:black
+}
+
+div ol li{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    }
+
+h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: .99em;
+color: white;
+}
+p{
+    color: white;
+    
+}
+p.twoParagraph{
+    font-size: 2em;
+
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: smaller;
+}
