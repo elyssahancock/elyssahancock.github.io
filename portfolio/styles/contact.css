@@ -98,7 +98,8 @@ p{
     border: none;
     cursor: pointer;
     grid-column-start: 2;
-    display:left;}
+    
+  }
   .dropdown {
     position: relative;
     display: inline-block;}
