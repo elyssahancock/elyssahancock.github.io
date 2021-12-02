@@ -6,7 +6,7 @@
     text-align: center;
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 /* HEADER CSS */
@@ -18,7 +18,7 @@ header{
     text-align: left;
     padding-top: 10px;
     padding-left: 10px;
-    
+    position: absolute;
    top:0;
    width:100%;
 
@@ -42,7 +42,7 @@ h1 {
     display: grid;
     font-family: "Bebas Neue";
     text-shadow: 2px 2px #0000005b;
-    font-size: 4em;
+    font-size: 5em;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 0;
@@ -70,11 +70,11 @@ p{
   margin: auto;
   font-family: "Bebas Neue";
   
+  
+  
 
 }
-.button{
-  font-family: "Bebas Neue";
-}
+
 /* DROP DOWN MENU */
 
 .dropdown-content {
@@ -164,5 +164,5 @@ footer a:hover{
   color:#f1f1f1
 }
 ul{
-  list-style-type:"*";
+  list-style-type:" ";
 }
