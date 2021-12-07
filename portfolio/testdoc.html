@@ -1,0 +1,280 @@
+
+<html>
+<head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter+Brush&family=Outfit:wght@300;600&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+header{
+    background-color: #D77A61;
+    display: grid;
+    grid-template-columns: 1fr 1fr 14fr;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+   top:0;
+   width:100%;
+
+}
+header h1{
+    color: white;
+    font-size: .75em;
+    padding-left: 20px;
+    grid-column: 1/2
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+#desc{
+  font-family: "Bebas Neue";
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter+Brush&family=Outfit:wght@300;600&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* HEADER CSS */
+
+header{
+    background-color: #D77A61;
+    display: grid;
+    grid-template-columns: 1fr 1fr 14fr;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+   top:0;
+   width:100%;
+
+}
+header h1{
+    color: white;
+    font-size: .75em;
+    padding-left: 20px;
+    grid-column: 1/2
+}
+
+
+/* commented out:
+body {
+    text-align: center;
+    grid-row: 2/4;
+
+}*/
+
+h1 {
+    display: grid;
+    font-family: "Bebas Neue";
+    text-shadow: 2px 2px #0000005b;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    order: 1;
+}
+h2{
+    font-family: "Bebas Neue";
+    padding-top: 100px;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    order: 2;
+    
+}
+p{
+  font-family: "Bebas Neue";
+}
+/* CONTACT ME SPECIFIC STYLING */
+#ContactSection{
+  padding-top: 50px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-family: "Bebas Neue";
+  
+
+}
+.button{
+  font-family: "Bebas Neue";
+}
+/* DROP DOWN MENU */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;}
+.dropdown:hover .dropbtn {
+  background-color: #D77A61;}
+.dropbtn {
+    background-color: #D77A61;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    font-family: "Bebas Neue";
+    border: none;
+    cursor: pointer;
+    grid-column-start: 2;
+    display:left;}
+  .dropdown {
+    position: relative;
+    display: inline-block;}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-family: "Bebas Neue";
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; }
+
+
+
+.pic1{
+    margin-left: auto;
+    border-radius: 50%;
+    margin-right: auto;
+    padding-bottom: 15px;
+    grid-column: 2/3; 
+    grid-row-start: 2;
+}
+.pic1 img{
+  border-radius: 50%;
+}
+.pic2{
+  display: grid;
+  grid-column: 1/2;
+  grid-row-start: 2;
+  margin: 0 auto;
+  padding-bottom: 30px;
+
+}
+.pic3{
+  display: grid;
+  grid-column: 3/4;
+  grid-row-start: 2;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+footer{
+  background-color: #D77A61;
+  padding: 30px;
+  font-family: "Bebas Neue";
+  position:absolute;
+   bottom:0;
+   width:100%;
+   text-align: left;
+}
+footer a{
+  color: white;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 2em;
+}
+footer a:hover{
+  color:#f1f1f1
+}
+ul{
+  list-style-type:"*";
+}
+</style>
+</head>
+<body>
+
+  <header>
+    <a href="https://elyssahancock.github.io/portfolio/index.html">
+    <img src="images/White_Circle.svg.png" alt="Elyssa-Logo" width="80">
+    </a>
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+            <a href="https://elyssahancock.github.io/portfolio/photography.html">Photography</a>
+            <a href="https://elyssahancock.github.io/portfolio/development.html">Web and Software Development</a>
+            <a href="https://elyssahancock.github.io/portfolio/contactme.html">Contact Me</a>
+        </div>
+      </div>
+</header>
+<div class="gallery">
+  <a target="_blank" href="images/capitol_building.JPG">
+    <img src="images/capitol_building.JPG" alt="Capitol Building" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/capitol_building2.JPG">
+    <img src="images/capitol_building2.JPG" alt="Capitol Building 2" wheight="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/column-image3.jpg">
+    <img src="images/column-image3.jpg" alt="Column Image 3" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/column-image2.JPG">
+    <img src="images/column-image2.JPG" alt="Column Image 2" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/column-images.jpg">
+    <img src="images/column-images.JPG" alt="Column Images" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/dragonfly.JPG">
+    <img src="images/dragonfly.JPG" alt="Dragonfly" width="800">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+</body>
+</html>
