@@ -52,12 +52,27 @@ h1 {
 }
 h2{
     font-family: "Bebas Neue";
-    padding-top: 100px;
     display: grid;
     grid-column: 2/3;
     grid-row: 1/2;
     order: 2;
     
+}
+h3{
+  font-family: "Bebas Neue";
+    padding-top: 100px;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    order: 2;
+}
+h4{
+  font-family: "Bebas Neue";
+    padding-top: 100px;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    order: 2;
 }
 p{
   font-family: "Bebas Neue";
@@ -143,6 +158,23 @@ p{
   grid-row-start: 2;
   margin: 0 auto;
   padding-bottom: 30px;
+}
+#photography, h2{
+    font-family: "Bebas Neue";
+    padding-top: -40px;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    order: 2;
+    text-align: center;
+
+}
+#photography, h1{
+  padding-bottom: -30px;
+  
+}
+.images{
+  text-align: center;
 }
 
 footer{
