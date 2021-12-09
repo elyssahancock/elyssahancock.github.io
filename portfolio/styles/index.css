@@ -87,6 +87,10 @@ p{
   
 
 }
+#ContactSection, h1{
+  padding-top: 100000px;
+  color: red;
+} 
 .button{
   font-family: "Bebas Neue";
 }
