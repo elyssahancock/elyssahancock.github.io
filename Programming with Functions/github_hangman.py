@@ -1,5 +1,5 @@
 #Imports : 
-from words import new_words_list
+from github_words import new_words_list
 import random
 #from tkinter import *
 #from tkinter import ttk
